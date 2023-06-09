@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Superman",
+    "ability": "attacker",
+    "guid": "1",
+    "trainId": "1",
+    "trainingStartDate": "2023-06-08T00:00:00Z",
+    "suitColors": [
+      "red",
+      "blue",
+      "yellow"
+    ],
+    "startingPower": 9.5,
+    "currentPower": 6.2825000000000006,
+    "trainingCount": 4
+  },
+  {
+    "name": "Batman",
+    "ability": "defender",
+    "guid": "2",
+    "trainId": "1",
+    "trainingStartDate": "2023-06-08T00:00:00Z",
+    "suitColors": [
+      "black",
+      "gray"
+    ],
+    "startingPower": 8.2,
+    "currentPower": 8.738,
+    "trainingCount": 4
+  },
+  {
+    "name": "Spider-Man",
+    "ability": "attacker",
+    "guid": "3",
+    "trainId": "2",
+    "trainingStartDate": "2021-10-01T00:00:00Z",
+    "suitColors": [
+      "red",
+      "blue"
+    ],
+    "startingPower": 7.8,
+    "currentPower": 3,
+    "trainingCount": 2
+  }
+]

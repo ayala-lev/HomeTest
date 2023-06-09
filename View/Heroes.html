@@ -1,0 +1,15 @@
+﻿<h1>Hello {{username}}</h1>
+<div ng-if="heroes">
+    <div ng-repeat="hero in heroes  | orderBy: 'currentPower'" class="card">
+        <div class="card-content">
+            <h2>{{ hero.name }}</h2>
+            <p>Ability: {{ hero.ability }}</p>
+            <p>Training start date: {{ hero.trainingStartDate | date:'dd/MM/yyyy'}}</p>
+            <p>Suit colors: {{ hero.suitColors }}</p>
+            <p>Starting power: {{ hero.startingPower | number:2 }}</p>
+            <p>Current power: {{ hero.currentPower | number:2 }}</p>
+            <button ng-click="train(hero)" ng-disabled="hero.trainingCount >= 5 || trainId != hero.trainId ">אימון</button>
+            <p>סך הכל אימונים היום: {{ hero.trainingCount }}</p>
+        </div>
+    </div>
+</div>

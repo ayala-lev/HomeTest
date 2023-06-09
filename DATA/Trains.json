@@ -1,0 +1,17 @@
+﻿[
+  {
+    "trainId": 1,
+    "username": "aaaa",
+    "password": "password1"
+  },
+  {
+    "trainId": 2,
+    "username": "bbbb",
+    "password": "password2"
+  },
+  {
+    "trainId": 3,
+    "username": "cccc",
+    "password": "password3"
+  }
+]

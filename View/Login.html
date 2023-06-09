@@ -1,0 +1,11 @@
+﻿<form class="login-form">
+    <label>Username:</label>
+    <input type="text" ng-model="username"><br><br>
+
+    <label>Password:</label>
+    <input type="password" ng-model="password"><br><br>
+
+    <button type="button" ng-click="login()">Login</button>
+</form>
+
+<p style="color: red">{{ loginError }}</p>
